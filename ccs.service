@@ -1,0 +1,9 @@
+[Unit]
+Description=run ccs.sh
+
+[Service]
+Type=simple
+ExecStart=/ccs/ccs.sh
+
+[Install]
+WantedBy=multi-user.target
