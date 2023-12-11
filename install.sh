@@ -10,12 +10,12 @@ echo "     get Files   "
 echo "-----------------"
 mkdir /ccs/
 cd /ccs/
-wget url/ccs.sh
-chmod 775 ccs.sh
+wget https://kln-group.github.io/CacheClearScript/ccs.sh
+chmod 775 https://kln-group.github.io/CacheClearScript/ccs.sh
 
 cd /etc/systemd/system
-wget url/ccs.service
-wget url/ccs.timer
+wget https://kln-group.github.io/CacheClearScript/ccs.service
+wget https://kln-group.github.io/CacheClearScript/ccs.timer
 
 echo "-----------------"
 echo " Regist  Service "
